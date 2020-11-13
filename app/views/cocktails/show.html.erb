@@ -1,5 +1,7 @@
 <h1>Here is your cocktail!</h1>
 <h3><%= @cocktail.name %></h3>
+<%= cl_image_tag("https://res.cloudinary.com/darienhz/image/upload/v1605292309/chris-bulilan-DHwcEIADfrk-unsplash_sdfqd5.jpg",
+      width: 400, height: 300, crop: :fill) %>
 <% @cocktail.doses.each do |dose| %>
   <p><%= dose.description %></p>
   <p><%= dose.ingredient.name %></p>
