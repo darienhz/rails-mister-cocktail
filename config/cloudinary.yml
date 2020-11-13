@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: darienhz
+  api_key: '478254279519657'
+  api_secret: h4y3TYSZoebH7iVqAkWqya9F8RU
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: darienhz
+  api_key: '478254279519657'
+  api_secret: h4y3TYSZoebH7iVqAkWqya9F8RU
+  enhance_image_tag: true
+  static_file_support: true
+test:
+  cloud_name: darienhz
+  api_key: '478254279519657'
+  api_secret: h4y3TYSZoebH7iVqAkWqya9F8RU
+  enhance_image_tag: true
+  static_file_support: false
